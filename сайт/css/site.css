@@ -1,0 +1,343 @@
+body
+{
+margin:0;
+padding:0;
+}
+
+.header
+{
+padding:20px;
+background:red;
+border-bottom:5px solid black;
+}
+
+#header
+{
+color:white;
+font-size:20px;
+text-align:center;
+}
+
+#title
+{
+position:relative;
+top:-30px;
+}
+
+.container
+{
+background-image:url('lfctv.jpg');
+height:auto;
+padding-bottom:20px;
+}
+
+
+#container
+{
+background-image:url('lfctv.jpg');
+height:1000px;
+padding-bottom:20px;
+}
+
+.menu
+{
+float:left;
+	position:relative;
+	left:20px;
+}
+
+.content
+{
+margin-left:525px;
+margin-right:100px;
+}
+
+.color
+{
+color:red;
+text-align:center;
+position:relative;
+left:20px;
+top:20px;
+margin-bottom:30px;
+margin-top:40px;
+}
+
+.block2
+{
+border:1px solid #E5E5E5;
+margin-left:20px;
+margin-bottom:40px;
+width:400px;
+}
+
+.footer
+{
+background:red;
+height:100px;
+border-top:5px solid black;
+color:white;
+}
+
+.contacts
+{
+float:left;
+margin-left:520px;
+width:400px;
+}
+
+#contacts li
+{
+list-style:none;
+margin-left:-20px;
+}
+
+.material
+{
+float:left;
+margin-left:30px;
+}
+
+.spisok{
+    width:250px;
+    padding:0;
+    margin:0;
+    list-style:none;
+	position:relative;
+	left:20px;
+	top:20px;
+}
+.spisok a{
+    display:block;
+    padding:8px 14px;
+    margin-bottom:-1px;
+    color:red;
+    text-decoration:none;
+    border:1px solid #E5E5E5;
+	
+	}
+.spisok a:hover{
+    background:#F5F5F5;
+}
+.spisok>li{
+    position:relative;
+	
+	}
+.spisok .sub-menu{
+    position:absolute;
+    top:5px;
+    left:240px;
+    z-index:10;
+    width:220px;
+    padding:0;
+    margin:0;
+    list-style:none;
+    background:#FCF8E3;
+    display:none;
+}
+
+.spisok>li:hover .sub-menu{
+    display:block;
+}
+
+.short-left li
+{
+list-style:none;
+color:red;
+font-weight:bold;
+}
+
+#back-top {
+	position: fixed;
+	bottom: 0px;
+	right: 15px;
+	z-index:999;
+}
+#back-top a {
+	width: 100px;
+	display: block;
+	text-align: left;
+	font: 14px/100% Verdana;
+	text-decoration: none;
+	color: #fff;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #fff;
+}
+/* arrow icon (span tag) */
+#back-top span {
+	width: 100px;
+	height: 30px;
+	display: block;
+	margin-bottom: 7px;
+	line-height:30px;
+	background: #777 url(up-arrow.png) no-repeat center center;
+	opacity:0.7;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover span {
+	background-color: #777;
+	opacity:1;
+}
+
+.bold
+{
+font-weight:bold;
+}
+
+.gallery{
+    padding-top:10px;
+    margin-left:5px;
+    text-align:center;
+    
+}
+.gallery .item{
+    width:140px;
+    margin:0 10px;
+    margin-bottom:10px;
+	display:inline-block;
+}
+
+.gallery .frame{
+    background:#ECF0F1;
+    padding:10px;
+    border:1px solid black;
+    vertical-align:middle;
+    text-align:left;
+}
+.gallery .image{
+    height:170px;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+}
+
+.gallery .image-1
+{
+background:url('1950.jpg');
+}
+
+.gallery .image-2
+{
+background:url('1955.jpg');
+}
+
+.gallery .image-3
+{
+background:url('1968.jpg');
+}
+
+.gallery .image-4
+{
+background:url('1976.jpg');
+}
+
+.gallery .image-5
+{
+background:url('1987.jpg');
+}
+
+.gallery .image-6
+{
+background:url('1992.jpg');
+}
+
+.gallery .image-7
+{
+background:url('1993.jpg');
+}
+
+.gallery .image-8
+{
+background:url('1999.jpg');
+}
+
+.gallery .image-9
+{
+background:url('2012.jpg');
+}
+
+.gallery .image-10
+{
+background:url('form10.gif');
+background-position:40% 30%;
+}
+
+.gallery .image-11
+{
+background:url('form11.gif');
+background-position:40% 30%;
+}
+
+.gallery .image-12
+{
+background:url('form12.gif');
+background-position:40% 30%;
+}
+
+.gallery .image-13
+{
+background:url('form13.gif');
+background-position:40% 30%;
+}
+
+.gallery .image-14
+{
+background:url('form14.gif');
+background-position:40% 30%;
+}
+
+.gallery .image-15
+{
+background:url('form15.jpg');
+background-position:40% 50%;
+background-repeat:no-repeat;
+}
+
+.gallery .date{
+    color:#666;
+    font-style:italic;
+    font-size:11px;
+margin:5px;
+text-align:center;
+}
+
+.title-h2
+{
+text-decoration:underline;
+}
+
+.inline-block img
+{
+margin-top:20px;
+display:inline-block;
+}
+
+caption
+{
+font-weight:bold;
+font-size:15px;
+}
+
+table
+{
+border:1px solid black;
+border-collapse:collapse;
+background:gray;
+margin-top:10px;
+}
+
+td
+{
+padding:10px;
+border-top:1px solid black;
+text-align:center;
+}
