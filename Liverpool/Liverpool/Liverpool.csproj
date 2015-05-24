@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6F437FB8-4BCA-45A6-AA74-02E5F36BC0A1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Liverpool</RootNamespace>
+    <AssemblyName>Liverpool</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="carol\carol.html" />
+    <Content Include="carol\liverpool.png" />
+    <Content Include="css\1950.jpg" />
+    <Content Include="css\1955.jpg" />
+    <Content Include="css\1968.jpg" />
+    <Content Include="css\1976.jpg" />
+    <Content Include="css\1987.jpg" />
+    <Content Include="css\1992.jpg" />
+    <Content Include="css\1993.jpg" />
+    <Content Include="css\1999.jpg" />
+    <Content Include="css\2012.jpg" />
+    <Content Include="css\form1.jpg" />
+    <Content Include="css\form10.gif" />
+    <Content Include="css\form11.gif" />
+    <Content Include="css\form12.gif" />
+    <Content Include="css\form13.gif" />
+    <Content Include="css\form14.gif" />
+    <Content Include="css\form15.jpg" />
+    <Content Include="css\form2.jpg" />
+    <Content Include="css\form3.jpg" />
+    <Content Include="css\form4.jpg" />
+    <Content Include="css\form5.jpg" />
+    <Content Include="css\form6.jpg" />
+    <Content Include="css\form7.jpg" />
+    <Content Include="css\form8.jpg" />
+    <Content Include="css\form9.jpg" />
+    <Content Include="css\foto0.jpg" />
+    <Content Include="css\lfctv.jpg" />
+    <Content Include="css\site.css" />
+    <Content Include="css\up-arrow.png" />
+    <Content Include="history\academy\academy.html" />
+    <Content Include="history\academy\foto111.png" />
+    <Content Include="history\academy\foto222.png" />
+    <Content Include="history\academy\liverpool.png" />
+    <Content Include="history\clubMUEVE\clubMUEVE.html" />
+    <Content Include="history\clubMUEVE\liverpool.png" />
+    <Content Include="history\club\club.html" />
+    <Content Include="history\club\liverpool.png" />
+    <Content Include="history\Emblem\emblem.html" />
+    <Content Include="history\Emblem\liverpool.png" />
+    <Content Include="history\Evolution-form\evolution-form.html" />
+    <Content Include="history\Evolution-form\form1.jpg" />
+    <Content Include="history\Evolution-form\form10.gif" />
+    <Content Include="history\Evolution-form\form11.gif" />
+    <Content Include="history\Evolution-form\form12.gif" />
+    <Content Include="history\Evolution-form\form13.gif" />
+    <Content Include="history\Evolution-form\form14.gif" />
+    <Content Include="history\Evolution-form\form15.jpg" />
+    <Content Include="history\Evolution-form\form2.jpg" />
+    <Content Include="history\Evolution-form\form3.jpg" />
+    <Content Include="history\Evolution-form\form5.jpg" />
+    <Content Include="history\Evolution-form\form9.jpg" />
+    <Content Include="history\Evolution-form\liverpool.png" />
+    <Content Include="history\melvud\foto1.jpg" />
+    <Content Include="history\melvud\foto2.jpg" />
+    <Content Include="history\melvud\foto3.jpg" />
+    <Content Include="history\melvud\foto4.jpg" />
+    <Content Include="history\melvud\foto5.jpg" />
+    <Content Include="history\melvud\foto6.jpg" />
+    <Content Include="history\melvud\foto7.jpg" />
+    <Content Include="history\melvud\lfctv.jpg" />
+    <Content Include="history\melvud\liverpool.png" />
+    <Content Include="history\melvud\melvud.html" />
+    <Content Include="history\stadion\foto11.jpg" />
+    <Content Include="history\stadion\foto22.jpg" />
+    <Content Include="history\stadion\liverpool.png" />
+    <Content Include="history\stadion\stadion.html" />
+    <Content Include="history\tragedy1989\liverpool.png" />
+    <Content Include="history\tragedy1989\photo1.jpg" />
+    <Content Include="history\tragedy1989\photo2.jpg" />
+    <Content Include="history\tragedy1989\photo3.jpg" />
+    <Content Include="history\tragedy1989\photo4.jpg" />
+    <Content Include="history\tragedy1989\photo5.jpg" />
+    <Content Include="history\tragedy1989\photo6.jpg" />
+    <Content Include="history\tragedy1989\photo7.jpg" />
+    <Content Include="history\tragedy1989\ruecbed4fcf4a.jpg" />
+    <Content Include="history\tragedy1989\tragedy1989.html" />
+    <Content Include="line-up\line-up.xml" />
+    <Content Include="line-up\line-up.xsl" />
+    <Content Include="line-up\liverpool.png" />
+    <Content Include="liverpool.png" />
+    <Content Include="main.html" />
+    <Content Include="registration\first.html" />
+    <Content Include="registration\js\first.js" />
+    <Content Include="registration\js\second.js" />
+    <Content Include="registration\liverpool.png" />
+    <Content Include="registration\second.html" />
+    <Content Include="titles\first_place.png" />
+    <Content Include="titles\liverpool.png" />
+    <Content Include="titles\second-place.png" />
+    <Content Include="titles\titles.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4329</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:4329/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,6 @@
+c:\users\lesha\documents\visual studio 2013\Projects\Liverpool\Liverpool\bin\Liverpool.dll.config
+c:\users\lesha\documents\visual studio 2013\Projects\Liverpool\Liverpool\bin\Liverpool.dll
+c:\users\lesha\documents\visual studio 2013\Projects\Liverpool\Liverpool\bin\Liverpool.pdb
+c:\users\lesha\documents\visual studio 2013\Projects\Liverpool\Liverpool\obj\Debug\Liverpool.csprojResolveAssemblyReference.cache
+c:\users\lesha\documents\visual studio 2013\Projects\Liverpool\Liverpool\obj\Debug\Liverpool.dll
+c:\users\lesha\documents\visual studio 2013\Projects\Liverpool\Liverpool\obj\Debug\Liverpool.pdb
