@@ -2,17 +2,61 @@
 <html>
 <head>
 <meta charset="utf-8">
-    <script src="js/second.js" type="text/javascript"></script>
-<title>Second page</title>
-<link rel="stylesheet" type="text/css" href="../css/site.css">
-    <!-- сделать св-ва, не белый фон! -->
+    <title>Данные об зарегистрированном пользователе</title>
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <script type="text/javascript">
+        function getDaysBeforeBirthday(date) {
+            var birthday = date.split('.');
+            var day = birthday[0];
+            var month = birthday[1];
+            var d = new Date();
+            var currentDate = d.getDate();
+            var currentMonth = d.getMonth();
+            var countCurrentDay = currentDate + (currentMonth + 1) * 30;
+            month = ~~month; //Преобразования типов
+            day = ~~day;
+            var countDayForBirth = day + month * 30;
+            var answer = 0;
+            if (countCurrentDay <= countDayForBirth) {
+                answer = countDayForBirth - countCurrentDay;
+            }
+            else {
+                answer = countDayForBirth - countCurrentDay;
+                answer = answer * (-1);
+                answer = answer - 365;
+                answer = answer * (-1);
+           }
+            return answer;
+        }
+        function getInfo() {
+            var data = location.search.substring(1).split('&');
+            var name = data.shift();
+
+            document.write("Hello:" + name.split('=')[1]);
+            while (splitArray = data.shift()) {
+                splitArray = splitArray.split('=');
+                if (splitArray[0] === "lastname") {
+                    document.write("<br/>Last Name : " + splitArray[1]);
+                }
+                if (splitArray[0] === "mail") {
+                    document.write("<br/>Email : " + splitArray[1].replace("%40", "@"));
+                }
+                if (splitArray[0] === "password") {
+                    document.write("<br/>Password : " + splitArray[1]);
+                }
+                if (splitArray[0] === "city") {
+                    document.write("<br/>Country : " + splitArray[1]);
+                }
+                if (splitArray[0] === "birth") {
+                    document.write("<br/>Birthday: " + splitArray[1] + "<br/>Days before birthday : " + getDaysBeforeBirthday(splitArray[1]));
+                }
+            }
+        }
+    </script>
 </head>
 <body>
-<label id="Firstname"></label><br>
-<label id="Lastname"></label><br>
-<label id="Milo"></label><br>
-<label id="Password"></label><br>
-<label id="Birthday"></label><br>
-<label id="Country"></label><br>
+<script>
+    getInfo();
+</script>
 </body>
 </html>

@@ -4,3 +4,9 @@ c:\users\lesha\documents\visual studio 2013\Projects\Liverpool\Liverpool\bin\Liv
 c:\users\lesha\documents\visual studio 2013\Projects\Liverpool\Liverpool\obj\Debug\Liverpool.csprojResolveAssemblyReference.cache
 c:\users\lesha\documents\visual studio 2013\Projects\Liverpool\Liverpool\obj\Debug\Liverpool.dll
 c:\users\lesha\documents\visual studio 2013\Projects\Liverpool\Liverpool\obj\Debug\Liverpool.pdb
+D:\4 семестр\Языки разметки документов\msv сайт\Liverpool\Liverpool\bin\Liverpool.dll.config
+D:\4 семестр\Языки разметки документов\msv сайт\Liverpool\Liverpool\bin\Liverpool.dll
+D:\4 семестр\Языки разметки документов\msv сайт\Liverpool\Liverpool\bin\Liverpool.pdb
+D:\4 семестр\Языки разметки документов\msv сайт\Liverpool\Liverpool\obj\Debug\Liverpool.csprojResolveAssemblyReference.cache
+D:\4 семестр\Языки разметки документов\msv сайт\Liverpool\Liverpool\obj\Debug\Liverpool.dll
+D:\4 семестр\Языки разметки документов\msv сайт\Liverpool\Liverpool\obj\Debug\Liverpool.pdb

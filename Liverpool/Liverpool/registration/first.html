@@ -1,10 +1,21 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Достижения</title>
+    <title>Регистрация</title>
     <link rel="stylesheet" type="text/css" href="../css/site.css">
     <meta charset="utf-8">
-    <script src="js/first.js" type="text/javascript"></script>
+    <script>
+        function page()
+        {
+            if (document.getElementById('password').value !== document.getElementById('confirm').value || document.getElementById('password').value ==="" || document.getElementById('confirm').value ==="") {
+                alert('Passwords do not match!');
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+    </script>
 </head>
 <body>
     <div id="container">
@@ -80,25 +91,25 @@
             </div>
         </div>
         <div class="content">
-            <form action="second.html" method="get" onsubmit="return new_page(this);">
+            <form action="second.html" method="get" onsubmit="return page(this);">
                 <div class="registration">
                     <h1>Registration</h1>
-                    Firstname<input type="text" name="firstname" /><br>
-                    Lastname<input type="text" name="lastname" /><br>
-                    EMail<input type="text" name="mail" /><br>
-                    Password<input type="password" name="password" /><br>
-                    Confirm password<input type="password" name="confirm" /><br>
-                    Date of birth<input type="text" name="birth" /><br>
+                    Firstname<input type="text" name="firstname" id="firstname" pattern="[A-Za-z\s]+" required /><br>
+                    Lastname<input type="text" name="lastname" id="lastname" pattern="[A-Za-z\s]+" required /><br>
+                    EMail<input type="text" name="mail" id="mail"  title="liverpool@yandex.ru" placeholder="liverpool@yandex.ru" pattern="[\S]+@[\w]+\.[\w]+" required /><br>
+                    Password<input type="password" name="password" id="password"/><br>
+                    Confirm password<input type="password" name="confirm" id="confirm"/><br>
+                    Date of birth<input type="text" name="birth" id="birth" placeholder="25.05.2015" title="Date format: 31.12.1990" pattern="[\d]{2}\.[\d]{2}\.[\d]{4}" required /><br>
                         Country is selected from the list
-                        <input type='text' list='city' name="country" />
-                        <datalist id='city'>
-                            <option value="Россия" />
-                            <option value="Беларусь" />
-                            <option value="Украина" />
-                            <option value="Польша" />
-                            <option value="Литва" />
-                            <option value="Латвия" />
-                            <option value="Китай" />
+                    <input type="text" list="city" name="country" pattern="[A-Za-z\s]+" required />
+                        <datalist id="city">
+                            <option value="Russia" />
+                            <option value="Belarus" />
+                            <option value="Ukraine" />
+                            <option value="Poland" />
+                            <option value="Lithuania" />
+                            <option value="Latvia" />
+                            <option value="China" />
                         </datalist>
                         <menu type="toolbar">
                             <li>
